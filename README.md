@@ -1,6 +1,6 @@
-# Dillinger
+# Mood sensing
 
-This repository has been created to store snippets about mood sensing app excersice.
+This repository has been created to store snippets about mood sensing app excersice for Tiempo Development.
 
 # Snippets available in this repository
 
