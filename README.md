@@ -6,37 +6,26 @@ This repository has been created to store snippets about mood sensing app excers
 
   - Take a pic: Use the regular laptop camera to take a picture and get the location (latitude & longitude) where it was taken.
   - Face recognition: Check a photograph stored on your system and recognize the faces on it
-  - Check the mood of that picture
 
 
 You can also:
   - You can find an Flask REST API instalation where could be added the mentioned snippets above.
   NOTE: the snippets work apart of the API behaviour, it was added just to show an idea about how the data will be stored.
+  - The mood recognition example is available in below github repository as it request more other files like the data set for emotions and pictures.
+  https://github.com/PiotrDabrowskey/facemoji
 
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
 ### Tech
 
 All the code in this repository has been created on python 3.6:
 
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
+* [Django] - Django 2.1.7
+* [Django Rest framework] - django rest framework 3.9.1
+* [numpy] - numpy 1.16.1
+* [opencv] - opencv-contrib-python 4.0
+* [Pillow] - Pillow 5.4.1
+* [requests] - requests 2.21.0
+
 
 And of course this is the API documentation for the available endpoints.
 https://docs.google.com/document/d/1I9Qaw2vjnMuLshw-hFsYem_UHieamC7Q1JjxEzvCltk/edit?usp=sharing
