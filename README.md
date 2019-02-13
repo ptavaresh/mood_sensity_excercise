@@ -10,7 +10,8 @@ This repository has been created to store snippets about mood sensing app excers
 
 
 You can also:
-  - You can find an Flask REST API instalation where can be added or executed the mentioned snippets above.
+  - You can find an Flask REST API instalation where could be added the mentioned snippets above.
+  NOTE: the snippets work apart of the API behaviour, it was added just to show an idea about how the data will be stored.
 
 
 > The overriding design goal for Markdown's
@@ -37,8 +38,8 @@ All the code in this repository has been created on python 3.6:
 * [Breakdance](http://breakdance.io) - HTML to Markdown converter
 * [jQuery] - duh
 
-And of course the content itself is open source with a [public repository][dill]
- on GitHub.
+And of course this is the API documentation for the available endpoints.
+https://docs.google.com/document/d/1I9Qaw2vjnMuLshw-hFsYem_UHieamC7Q1JjxEzvCltk/edit?usp=sharing
 
 ### Installation
 
