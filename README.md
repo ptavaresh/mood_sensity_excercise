@@ -4,8 +4,8 @@ This repository has been created to store snippets about mood sensing app excers
 
 # Snippets available in this repository
 
-  - Use the regular laptop camera to take a picture and get the location (latitude & longitude) where it was taken.
-  - Check a photograph stored on your system and recognize the faces on it
+  - Take a pic: Use the regular laptop camera to take a picture and get the location (latitude & longitude) where it was taken.
+  - Face recognition: Check a photograph stored on your system and recognize the faces on it
   - Check the mood of that picture
 
 
@@ -44,10 +44,26 @@ And of course the content itself is open source with a [public repository][dill]
 
 All the dependencies for this repository are available in the requirements.txt file.
 
-Install the dependencies and start the server.
+Install the dependencies.
 
 ```
 pip install -r requeriments.txt
+```
+### How to use the snippets
+
+All the snippets for this repository are available in the folder "snippets".
+
+Face recognition:
+```
+python face_detect.py abba.png haarcascade_frontalface_default.xml
+```
+Take a pic:
+```
+python take_picture.py
+```
+Mood sensity:
+```
+python take_picture.py
 ```
 
 ### Libraries
