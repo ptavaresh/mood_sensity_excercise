@@ -63,3 +63,4 @@ Some of the most important libreries concidered for this are displayed here.
 | Librariy | README |
 | ------ | ------ |
 | OpenCV | [https://opencv.org/] |
+| GeoDjango | [https://docs.djangoproject.com/es/2.1/ref/contrib/gis/] |
