@@ -49,6 +49,11 @@ Install the dependencies and start the server.
 ```
 pip install -r requeriments.txt
 ```
+For the super user creation, those are the credentials.
+```
+python manage.py createsuperuser --email admin@example.com --username admin
+```
+password: tiempodevelopment
 
 ### Libraries
 
