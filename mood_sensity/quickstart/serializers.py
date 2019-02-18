@@ -2,7 +2,6 @@ from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 
 from .models import Picture
-from quickstart.detect_faces import detect_faces
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -31,11 +30,7 @@ class PictureSerializer(serializers.ModelSerializer):
         return lat, lon
 
     def create(self, validated_data):
-        #Upload the picture
         picture = validated_data.get('picture')
-        #detect the faces using the function available in detect_faces.py using the uploaded picture for detrcting the face
-        detect_faces(picture)
         mood = validated_data.get('mood')
-        #save(latitude='',longitude='', mood='')
         location = self.current_location()
         return Picture.objects.create(picture = picture,latitude=location[0],longitude=location[1], mood=mood)
