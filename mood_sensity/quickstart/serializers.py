@@ -2,7 +2,6 @@ from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 
 from .models import Picture
-from quickstart.recognition import run_recognizer
 from quickstart.detect_faces import detect_faces
 
 
@@ -36,8 +35,7 @@ class PictureSerializer(serializers.ModelSerializer):
         picture = validated_data.get('picture')
         #detect the faces using the function available in detect_faces.py using the uploaded picture for detrcting the face
         detect_faces(picture)
-        #detect mood using the function available in recognition.py the function should return the text value with the emotion detected
-        mood = run_recognizer()
+        mood = validated_data.get('mood')
         #save(latitude='',longitude='', mood='')
         location = self.current_location()
         return Picture.objects.create(picture = picture,latitude=location[0],longitude=location[1], mood=mood)
