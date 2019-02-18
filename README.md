@@ -1,6 +1,7 @@
 # Mood sensing
 
-This repository has been created to store snippets about mood sensing app excersice for Tiempo Development.
+This repository has been created to store snippets and pseudo code about mood sensing app excersice for Tiempo Development.
+NOTE: The available code for the django instalation is not runnable, it just tries tho show the isea about how can be implemented.
 
 # Snippets available in this repository
 
@@ -42,6 +43,7 @@ pip install -r requeriments.txt
 ### How to use the snippets
 
 All the snippets for this repository are available in the folder "snippets".
+NOTE: The snippets are just examples that how can be used opencv library, regarding how to solve the excersice the pseudo-code is available in the "mood_sensity" folder.  
 
 Face recognition:
 ```
