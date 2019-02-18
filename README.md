@@ -12,8 +12,6 @@ NOTE: The available code for the django instalation is not runnable, it just tri
 You can also:
   - You can find an Flask REST API instalation where could be added the mentioned snippets above.
   NOTE: the snippets work apart of the API behaviour, it was added just to show an idea about how the data will be stored.
-  - The mood recognition example is available in below github repository as it request more other files like the data set for emotions and pictures.
-  https://github.com/PiotrDabrowskey/facemoji
 
 
 ### Tech
@@ -53,11 +51,6 @@ Take a pic:
 ```
 python take_picture.py
 ```
-Mood sensity:
-```
-python take_picture.py
-```
-
 ### Libraries
 
 Some of the most important libreries concidered for this are displayed here.
